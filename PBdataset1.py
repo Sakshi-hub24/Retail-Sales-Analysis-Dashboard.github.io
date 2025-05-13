@@ -38,12 +38,12 @@ print(df['age_group'].value_counts())
 print(df.columns)
 
 #•	Create a Region Lookup table
-# region_lookup = {
-#     'North': ['New York', 'Boston', 'Chicago'],
-#     'South': ['Miami', 'Atlanta', 'Dallas'],
-#     'East': ['Washington', 'Philadelphia', 'Baltimore'],
-#     'West': ['Los Angeles', 'San Francisco', 'Seattle']
-# }
+region_lookup = {
+     'North': ['New York', 'Boston', 'Chicago'],
+     'South': ['Miami', 'Atlanta', 'Dallas'],
+     'East': ['Washington', 'Philadelphia', 'Baltimore'],
+     'West': ['Los Angeles', 'San Francisco', 'Seattle']
+ }
 
 #📊 3. Exploratory Data Analysis (Python)
 #•	Top 5 products by total sales.
